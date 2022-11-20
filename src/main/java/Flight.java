@@ -71,7 +71,7 @@ public class Flight {
         }
     }
     public int getAvailableSeats() {
-        return Plane.BOEING_777.getCapacity() - this.passengers.size();
+        return plane.getCapacity() - this.passengers.size();
     }
 
 }

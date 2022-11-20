@@ -12,7 +12,6 @@ public class FlightTest {
     CabinCrew cabinCrew2;
     CabinCrew cabinCrew3;
     CabinCrew cabinCrew4;
-
     Passenger passenger1;
     Passenger passenger2;
     Flight flight;
@@ -66,11 +65,11 @@ public class FlightTest {
         assertEquals("13:00", flight.getDepartureTime());
     }
     @Test public void canReturnNumberOfAvailableSeats(){
-        flight.addPassenger(passenger1);
-        flight.addPassenger(passenger1);
-        flight.addPassenger(passenger1);
+        flight2.addPassenger(passenger1);
+        flight2.addPassenger(passenger1);
+        flight2.addPassenger(passenger1);
 
-        assertEquals(97, flight.getAvailableSeats());
+        assertEquals(1, flight2.getAvailableSeats());
     }
     @Test public void cantAddMorePassengersWhenPlaceIsFull(){
         flight2.addPassenger(passenger1);

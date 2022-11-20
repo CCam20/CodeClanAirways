@@ -14,7 +14,7 @@ public enum Plane {
     }
 
     public int getCapacity() {
-        return capacity;
+        return this.capacity;
     }
 
     public int getTotalWeight() {
