@@ -1,6 +1,6 @@
 public enum Plane {
     BOEING_777(100, 500),
-    BOEING_727(120, 750),
+    BOEING_727(120, 1500),
     AIRBUS_A320(200, 1000),
     CESSNA_172(4, 100)
     ;
